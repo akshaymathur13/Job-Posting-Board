@@ -69,16 +69,16 @@ Start the Client: Open a new terminal, navigate to the client directory, and sta
 cd client
 npm start
 
-### Deployment
+## Deployment
 To deploy the application, follow the instructions in the deployment guide provided in your project documentation. Common platforms include Heroku or Vercel.
 
-### Contributing
+## Contributing
 Contributions are welcome! If you have suggestions for improvements or encounter any issues, feel free to open an issue or create a pull request.
 
-### License
+## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-### Customization
+## Customization
 
 - Replace `yourusername` in the clone URL with your actual GitHub username.
 - Modify any other sections to better fit your specific project details or requirements.
