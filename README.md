@@ -42,12 +42,12 @@ git clone https://github.com/yourusername/job-posting-board.git
 cd job-posting-board
 
 ### Install Dependencies
+
 cd server
 npm install
 
 cd ../client
 npm install
-
 
 ### Set Up Environment Variables
 
@@ -57,7 +57,6 @@ EMAIL_USER=your_email@example.com
 EMAIL_PASS=your_email_password
 
 ### Run the Application
-
 
 Start the Server: Navigate back to the server directory and start the server
 
