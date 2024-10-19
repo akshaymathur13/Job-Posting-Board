@@ -40,3 +40,47 @@ To get started, clone the repository to your local machine:
 ```bash
 git clone https://github.com/yourusername/job-posting-board.git
 cd job-posting-board
+
+### Install Dependencies
+cd server
+npm install
+
+cd ../client
+npm install
+
+
+### Set Up Environment Variables
+
+MONGODB_URI=your_mongodb_uri
+PORT=5000
+EMAIL_USER=your_email@example.com
+EMAIL_PASS=your_email_password
+
+### Run the Application
+
+
+Start the Server: Navigate back to the server directory and start the server
+
+cd server
+npm start
+
+Start the Client: Open a new terminal, navigate to the client directory, and start the client:
+
+cd client
+npm start
+
+### Deployment
+To deploy the application, follow the instructions in the deployment guide provided in your project documentation. Common platforms include Heroku or Vercel.
+
+### Contributing
+Contributions are welcome! If you have suggestions for improvements or encounter any issues, feel free to open an issue or create a pull request.
+
+### License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+### Customization
+
+- Replace `yourusername` in the clone URL with your actual GitHub username.
+- Modify any other sections to better fit your specific project details or requirements.
+
+Let me know if you need any adjustments or additional information!
